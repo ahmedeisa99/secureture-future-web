@@ -16,7 +16,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            Secure Your Future with <span className="text-cyber-green">Secureture</span>
+            Secure Your Future with <span className="text-cyber-green">Secuture</span>
           </h1>
           <p className="text-xl md:text-2xl text-cyber-gray mb-8">
             Comprehensive cybersecurity solutions tailored for modern enterprises. Protect your digital assets and stay ahead of evolving threats.
@@ -63,3 +63,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
