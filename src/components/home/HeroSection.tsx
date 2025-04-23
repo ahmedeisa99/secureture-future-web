@@ -1,0 +1,65 @@
+
+import React from 'react';
+import { Button } from "@/components/ui/button";
+import { Link } from 'react-router-dom';
+
+const HeroSection = () => {
+  return (
+    <section className="relative h-screen flex items-center overflow-hidden">
+      {/* Background with grid pattern */}
+      <div className="absolute inset-0 bg-grid-pattern bg-[size:40px_40px] opacity-20"></div>
+      
+      {/* Animated circles */}
+      <div className="absolute top-1/4 right-1/4 w-96 h-96 rounded-full bg-cyber-green/5 filter blur-3xl animate-pulse-glow"></div>
+      <div className="absolute bottom-1/4 left-1/3 w-64 h-64 rounded-full bg-cyber-red/10 filter blur-3xl animate-pulse-glow" style={{ animationDelay: '1.5s' }}></div>
+      
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="max-w-3xl">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+            Secure Your Future with <span className="text-cyber-green">Secureture</span>
+          </h1>
+          <p className="text-xl md:text-2xl text-cyber-gray mb-8">
+            Comprehensive cybersecurity solutions tailored for modern enterprises. Protect your digital assets and stay ahead of evolving threats.
+          </p>
+          <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+            <Button asChild className="cta-button">
+              <Link to="/contact">Request a Consultation</Link>
+            </Button>
+            <Button asChild variant="outline" className="secondary-button">
+              <Link to="/services">Explore Services</Link>
+            </Button>
+          </div>
+          
+          <div className="mt-12 flex flex-wrap items-center gap-8">
+            <div className="flex items-center">
+              <div className="bg-cyber-green p-2 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-cyber-dark-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+              <span className="ml-2 text-cyber-white">SOC 2 Type II Certified</span>
+            </div>
+            <div className="flex items-center">
+              <div className="bg-cyber-green p-2 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-cyber-dark-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                </svg>
+              </div>
+              <span className="ml-2 text-cyber-white">ISO 27001 Compliant</span>
+            </div>
+            <div className="flex items-center">
+              <div className="bg-cyber-green p-2 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-cyber-dark-blue" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <span className="ml-2 text-cyber-white">24/7 Monitoring</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default HeroSection;
