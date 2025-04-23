@@ -32,7 +32,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center">
           <div className="text-2xl font-bold text-white">
-            Secure<span className="text-cyber-green">ture</span>
+            Secu<span className="text-cyber-green">ture</span>
           </div>
         </Link>
 
@@ -119,3 +119,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

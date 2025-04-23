@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, Phone, Home } from "lucide-react";
@@ -13,7 +12,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="text-2xl font-bold text-white mb-4">
-              Secure<span className="text-cyber-green">ture</span>
+              Secu<span className="text-cyber-green">ture</span>
             </div>
             <p className="text-cyber-gray mb-4">
               Providing leading cybersecurity solutions to protect your digital assets and secure your future.
@@ -118,7 +117,7 @@ const Footer = () => {
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-cyber-green mr-3" />
                 <a href="mailto:info@secureture.com" className="text-cyber-gray hover:text-cyber-green">
-                  info@secureture.com
+                  info@secuture.com
                 </a>
               </li>
             </ul>
@@ -127,7 +126,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="border-t border-cyber-light-blue mt-12 pt-8 text-center text-cyber-gray">
-          <p>&copy; {currentYear} Secureture. All rights reserved.</p>
+          <p>&copy; {currentYear} Secuture. All rights reserved.</p>
           <p className="mt-2">
             <Link to="/privacy-policy" className="hover:text-cyber-green">Privacy Policy</Link>
             {' '} | {' '}
