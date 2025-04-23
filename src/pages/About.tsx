@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '@/components/layout/Layout';
 
@@ -12,7 +11,7 @@ const About = () => {
       <div className="pt-28 pb-16 md:pt-32 md:pb-24 bg-cyber-dark-blue">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto mb-16 text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">About Secureture</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">About Secuture</h1>
             <p className="text-xl text-cyber-gray">
               Leading the way in cybersecurity solutions to protect organizations in an evolving threat landscape.
             </p>
@@ -53,13 +52,13 @@ const About = () => {
                 <div>
                   <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                   <p className="text-cyber-gray mb-4">
-                    Founded in 2015 by a team of security professionals with backgrounds in government and enterprise security, Secureture was born out of a recognition that cybersecurity was becoming increasingly critical while remaining inaccessible to many organizations.
+                    Founded in 2015 by a team of security professionals with backgrounds in government and enterprise security, Secuture was born out of a recognition that cybersecurity was becoming increasingly critical while remaining inaccessible to many organizations.
                   </p>
                   <p className="text-cyber-gray mb-4">
                     Our founders believed that security shouldn't just be available to large enterprises with massive IT budgets—it should be available to all organizations that need to protect their digital assets and customer data.
                   </p>
                   <p className="text-cyber-gray">
-                    Since then, Secureture has grown to serve hundreds of clients across industries, from startups to Fortune 500 companies, government agencies, and critical infrastructure operators. Our approach combines technical expertise with a deep understanding of business needs to create security solutions that enable rather than restrict.
+                    Since then, Secuture has grown to serve hundreds of clients across industries, from startups to Fortune 500 companies, government agencies, and critical infrastructure operators. Our approach combines technical expertise with a deep understanding of business needs to create security solutions that enable rather than restrict.
                   </p>
                 </div>
                 <div className="bg-cyber-navy rounded-lg p-6">
