@@ -104,8 +104,8 @@ const Footer = () => {
               <li className="flex items-start">
                 <Home className="h-5 w-5 text-cyber-green mr-3 mt-0.5" />
                 <span className="text-cyber-gray">
-                  123 Cyber Street, Suite 200<br />
-                  San Francisco, CA 94105
+                  Gehan Street, Mansoura<br />
+                  Dakahlia Governorate, Egypt
                 </span>
               </li>
               <li className="flex items-center">

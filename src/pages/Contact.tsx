@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Layout from '@/components/layout/Layout';
 import { Button } from "@/components/ui/button";
@@ -203,9 +202,8 @@ const Contact = () => {
                     <div>
                       <h3 className="text-lg font-semibold mb-1">Address</h3>
                       <address className="text-cyber-gray not-italic">
-                        123 Cyber Street, Suite 200<br />
-                        San Francisco, CA 94105<br />
-                        United States
+                        Gehan Street, Mansoura<br />
+                        Dakahlia Governorate, Egypt
                       </address>
                     </div>
                   </div>
