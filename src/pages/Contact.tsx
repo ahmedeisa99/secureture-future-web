@@ -222,8 +222,8 @@ const Contact = () => {
                   </svg>
                   <div>
                     <p className="text-white font-medium">Emergency Support Hotline</p>
-                    <a href="tel:+1-555-911-CYBER" className="text-cyber-red text-lg font-bold hover:underline">
-                      +1 (555) 911-CYBER
+                    <a href="tel:+201092401964" className="text-cyber-red text-lg font-bold hover:underline">
+                      +20 (109) 240-1964
                     </a>
                   </div>
                 </div>
