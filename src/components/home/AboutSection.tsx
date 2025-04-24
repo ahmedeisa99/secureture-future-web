@@ -12,10 +12,10 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Protecting Your Digital Assets Since 2015
+              Protecting Your Digital Assets
             </h2>
             <p className="text-cyber-gray mb-6">
-              Secureture was founded with a mission to make advanced cybersecurity accessible to organizations of all sizes. Our team of seasoned security experts brings together decades of experience in defending against the most sophisticated cyber threats.
+              Secuture was founded with a mission to make advanced cybersecurity accessible to organizations of all sizes. Our team of seasoned security experts brings together decades of experience in defending against the most sophisticated cyber threats.
             </p>
             <p className="text-cyber-gray mb-8">
               We believe that security isn't just about deploying technology—it's about understanding your business, identifying what matters most, and building defense-in-depth strategies that evolve with the threat landscape.
