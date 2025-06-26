@@ -1,6 +1,8 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, Phone, Home } from "lucide-react";
+import Logo from "@/components/ui/Logo";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -11,9 +13,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <div className="text-2xl font-bold text-white mb-4">
-              Secu<span className="text-cyber-green">ture</span>
-            </div>
+            <Logo size="lg" className="mb-4" />
             <p className="text-cyber-gray mb-4">
               Providing leading cybersecurity solutions to protect your digital assets and secure your future.
             </p>

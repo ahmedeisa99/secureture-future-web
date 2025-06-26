@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from '@/lib/utils';
+import Logo from "@/components/ui/Logo";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,9 +32,7 @@ const Navbar = () => {
     )}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <div className="text-2xl font-bold text-white">
-            Secu<span className="text-cyber-green">ture</span>
-          </div>
+          <Logo size="md" />
         </Link>
 
         {/* Desktop Navigation */}
@@ -119,4 +118,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
