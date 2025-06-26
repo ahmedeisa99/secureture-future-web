@@ -68,13 +68,13 @@ export default {
           ring: 'hsl(var(--sidebar-ring))'
         },
         cyber: {
-          'dark-blue': '#0A192F',
-          'navy': '#112240',
-          'light-blue': '#233554',
+          'dark-blue': '#0D1B2A',
+          'navy': '#1B263B',
+          'light-blue': '#3A506B',
           'white': '#FFFFFF',
-          'green': '#00FF41',
+          'green': '#00E5FF',
           'red': '#FF3A5E',
-          'gray': '#8892B0'
+          'gray': '#A0A0A0'
         }
       },
       borderRadius: {
@@ -108,7 +108,7 @@ export default {
       },
       backgroundImage: {
         'cyber-pattern': "url('/bg-pattern.svg')",
-        'grid-pattern': "linear-gradient(to right, #233554 1px, transparent 1px), linear-gradient(to bottom, #233554 1px, transparent 1px)"
+        'grid-pattern': "linear-gradient(to right, #3A506B 1px, transparent 1px), linear-gradient(to bottom, #3A506B 1px, transparent 1px)"
       }
     }
   },
