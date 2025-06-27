@@ -106,28 +106,48 @@ const About = () => {
           </div>
 
           <div className="mb-20">
-            <h2 className="text-3xl font-bold mb-8 text-center">Our Leadership Team</h2>
+            <h2 className="text-3xl font-bold mb-8 text-center">🔐 Our Technical Team</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {[
                 {
-                  name: "Alex Morgan",
-                  role: "Chief Executive Officer",
-                  bio: "Former cybersecurity advisor with 15+ years of experience in defense and enterprise security.",
+                  name: "Aya Abdelaziz",
+                  role: "Network Security Engineer",
+                  bio: "Experienced in designing secure network architectures and implementing enterprise-grade firewall and segmentation strategies.",
                 },
                 {
-                  name: "Sarah Chen",
-                  role: "Chief Technology Officer",
-                  bio: "Computer science PhD with expertise in AI security and critical infrastructure protection.",
+                  name: "Mariam Mohamed",
+                  role: "Network Security Engineer",
+                  bio: "Specializes in securing critical infrastructure through advanced network protocols and continuous threat monitoring.",
                 },
                 {
-                  name: "Miguel Rodriguez",
-                  role: "Chief Security Officer",
-                  bio: "Former head of security for a Fortune 100 company with deep expertise in threat intelligence.",
+                  name: "Farah Hossam",
+                  role: "SOC Analyst",
+                  bio: "Expert in real-time alert triage and incident handling, ensuring rapid response to emerging security threats.",
                 },
                 {
-                  name: "Diana Park",
-                  role: "VP of Operations",
-                  bio: "Operational excellence expert who ensures seamless delivery of security services.",
+                  name: "Nancy Nasser",
+                  role: "AI Engineer",
+                  bio: "Focuses on developing AI-driven security models for threat prediction, anomaly detection, and automated defense.",
+                },
+                {
+                  name: "Ahmed Eisa",
+                  role: "SOC Analyst",
+                  bio: "Security operations specialist with hands-on experience in threat detection, log analysis, and incident response across enterprise environments.",
+                },
+                {
+                  name: "Mohammed Elsayed",
+                  role: "Penetration Tester",
+                  bio: "Ethical hacker with expertise in vulnerability assessment and offensive security testing across diverse systems.",
+                },
+                {
+                  name: "Mohamed Elteir",
+                  role: "Cloud Engineer",
+                  bio: "Designs and secures scalable cloud infrastructures, with a focus on compliance, resilience, and access control.",
+                },
+                {
+                  name: "Mahmoud Hassan",
+                  role: "Network Security Engineer",
+                  bio: "Delivers robust network protection through proactive monitoring, secure configuration, and policy enforcement.",
                 }
               ].map((member, index) => (
                 <div key={index} className="cyber-card text-center">
