@@ -32,7 +32,7 @@ const Navbar = () => {
     )}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <Logo size="md" showText={false} />
+          <Logo size="md" showText={true} />
         </Link>
 
         {/* Desktop Navigation */}
