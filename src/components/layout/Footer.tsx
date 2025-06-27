@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, Phone, Home } from "lucide-react";
@@ -116,8 +115,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-cyber-green mr-3" />
-                <a href="mailto:info@secureture.com" className="text-cyber-gray hover:text-cyber-green">
-                  info@secuture.com
+                <a href="mailto:secuture.info@gmail.com" className="text-cyber-gray hover:text-cyber-green">
+                  secuture.info@gmail.com
                 </a>
               </li>
             </ul>
