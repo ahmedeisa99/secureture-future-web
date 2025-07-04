@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Layout from '@/components/layout/Layout';
 
@@ -52,51 +53,61 @@ const About = () => {
                 <div>
                   <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                   <p className="text-cyber-gray mb-4">
-                    Founded in 2015 by a team of security professionals with backgrounds in government and enterprise security, Secuture was born out of a recognition that cybersecurity was becoming increasingly critical while remaining inaccessible to many organizations.
+                    Secuture was born as a senior graduation project in 2024, created by a group of cybersecurity enthusiasts from diverse technical backgrounds—ranging from networks and cloud infrastructure to offensive security and AI.
                   </p>
                   <p className="text-cyber-gray mb-4">
-                    Our founders believed that security shouldn't just be available to large enterprises with massive IT budgets—it should be available to all organizations that need to protect their digital assets and customer data.
+                    We realized that while cyber threats are growing rapidly, most small and mid-sized organizations still lack accessible, affordable, and flexible security solutions tailored to their needs. That's where our idea started: building a unified platform that simulates real-world security services in a practical and educational way.
                   </p>
+                  <p className="text-cyber-gray mb-6">
+                    Our mission is to bridge the gap between theory and practice by offering a proof-of-concept platform that covers five critical domains:
+                  </p>
+                  <ul className="space-y-2 text-cyber-gray mb-4">
+                    <li>🔐 Network Security</li>
+                    <li>☁️ Cloud Security</li>
+                    <li>🛡 SOC Operations</li>
+                    <li>🕵️ Penetration Testing</li>
+                    <li>🤖 AI-powered Security Tools</li>
+                  </ul>
                   <p className="text-cyber-gray">
-                    Since then, Secuture has grown to serve hundreds of clients across industries, from startups to Fortune 500 companies, government agencies, and critical infrastructure operators. Our approach combines technical expertise with a deep understanding of business needs to create security solutions that enable rather than restrict.
+                    Each module in Secuture was designed, implemented, and tested by our team to reflect real-life use cases using open-source tools, automation, and integration.
                   </p>
                 </div>
                 <div className="bg-cyber-navy rounded-lg p-6">
                   <h3 className="text-xl font-bold mb-4">Key Milestones</h3>
                   <ul className="space-y-6">
                     <li className="flex">
-                      <div className="mr-4 text-cyber-green font-bold">2015</div>
+                      <div className="mr-4 text-cyber-green font-bold">📍</div>
                       <div>
-                        <div className="font-medium text-white">Company Founded</div>
-                        <p className="text-cyber-gray text-sm">Established with a focus on making enterprise security accessible</p>
+                        <div className="font-medium text-white">March 2024 — Concept Initiation</div>
+                        <p className="text-cyber-gray text-sm">The project idea was formed. We aimed to design a cybersecurity service platform that covers multiple domains under one brand: Secuture.</p>
                       </div>
                     </li>
                     <li className="flex">
-                      <div className="mr-4 text-cyber-green font-bold">2017</div>
+                      <div className="mr-4 text-cyber-green font-bold">📍</div>
                       <div>
-                        <div className="font-medium text-white">SOC Service Launch</div>
-                        <p className="text-cyber-gray text-sm">Introduced 24/7 Security Operations Center services</p>
+                        <div className="font-medium text-white">May 2024 — Team Structuring & Scope Definition</div>
+                        <p className="text-cyber-gray text-sm">The project was divided into sub-teams. Each team focused on a specific domain such as SOC, PenTest, Cloud, or AI Security, with clear deliverables and research goals.</p>
                       </div>
                     </li>
                     <li className="flex">
-                      <div className="mr-4 text-cyber-green font-bold">2019</div>
+                      <div className="mr-4 text-cyber-green font-bold">📍</div>
                       <div>
-                        <div className="font-medium text-white">ISO 27001 Certification</div>
-                        <p className="text-cyber-gray text-sm">Achieved key security certification</p>
+                        <div className="font-medium text-white">August 2024 — POC Development</div>
+                        <p className="text-cyber-gray text-sm">Each team developed a proof-of-concept for their specific service using open-source tools, documentation, and simulation environments.</p>
                       </div>
                     </li>
                     <li className="flex">
-                      <div className="mr-4 text-cyber-green font-bold">2021</div>
+                      <div className="mr-4 text-cyber-green font-bold">📍</div>
                       <div>
-                        <div className="font-medium text-white">AI Security Division</div>
-                        <p className="text-cyber-gray text-sm">Launched dedicated AI security services</p>
+                        <div className="font-medium text-white">March 2025 — Web Platform Design</div>
+                        <p className="text-cyber-gray text-sm">A unified frontend website was developed to present the simulated services. The platform includes descriptions, booking forms, and a professional brand identity.</p>
                       </div>
                     </li>
                     <li className="flex">
-                      <div className="mr-4 text-cyber-green font-bold">2023</div>
+                      <div className="mr-4 text-cyber-green font-bold">📍</div>
                       <div>
-                        <div className="font-medium text-white">Global Expansion</div>
-                        <p className="text-cyber-gray text-sm">Opened offices in Europe and Asia Pacific regions</p>
+                        <div className="font-medium text-white">June 2025 — Final Submission & Demo Preparation</div>
+                        <p className="text-cyber-gray text-sm">The complete platform was packaged for presentation. While it doesn't run live backend services, it demonstrates deep understanding, planning, and technical execution of a real-world security company concept.</p>
                       </div>
                     </li>
                   </ul>
